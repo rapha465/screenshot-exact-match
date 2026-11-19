@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Keep study-task CRUD in pure browser-safe functions and React state, without persistence or external services, because this MVP is strictly local and resets on refresh.
+- Keep the study dashboard at the index route and reusable task cards/forms in dedicated components, because both calendar views share the same task operations.
